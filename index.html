@@ -56,6 +56,8 @@
       .scope ul, .validation ul { margin: 0; padding-left: 20px; }
       .scope li + li, .validation li + li { margin-top: 7px; }
       .validation { background: #f8fbff; border-color: #bfd0f7; }
+      .validation strong { display: block; color: var(--ink); }
+      .example { display: block; margin-top: 2px; color: var(--muted); font-size: .92rem; }
       .small { margin: 18px 0 0; font-size: .92rem; }
       @media (max-width: 720px) {
         main { width: min(100% - 24px, 1120px); padding-top: 12px; }
@@ -184,11 +186,11 @@
       <section class="validation">
         <h2>Lo que necesitamos validar con el equipo organizador</h2>
         <ul>
-          <li>Qué actividades estarán a la venta.</li>
-          <li>Qué datos necesitan de cada persona.</li>
-          <li>Quiénes pueden registrar efectivo y resolver errores.</li>
-          <li>Cómo quieren realizar el check-in.</li>
-          <li>Qué situaciones reales debemos contemplar el día del evento.</li>
+          <li><strong>Las actividades que estarán a la venta.</strong><span class="example">Ejemplo: “Competencia 1 vs 1, workshop de top rock y entrada general.”</span></li>
+          <li><strong>Los datos necesarios de cada persona.</strong><span class="example">Ejemplo: “Para asistentes: nombre y correo. Para competidores: también nombre artístico y categoría.”</span></li>
+          <li><strong>Quiénes pueden registrar efectivo y resolver errores.</strong><span class="example">Ejemplo: “La persona de caja y la coordinación pueden registrar efectivo; solo coordinación puede corregir un error.”</span></li>
+          <li><strong>Cómo quieren realizar el check-in.</strong><span class="example">Ejemplo: “En la entrada, buscamos por nombre o folio y marcamos la llegada a cada actividad.”</span></li>
+          <li><strong>Las situaciones reales que debemos contemplar el día del evento.</strong><span class="example">Ejemplo: “Una persona llega tarde, pierde su folio o dice que pagó pero no aparece confirmada.”</span></li>
         </ul>
         <p class="small">El equipo de producto se encarga de validar la operación técnica de los pagos, incluidos los métodos disponibles para los compradores que se acuerde atender.</p>
       </section>
