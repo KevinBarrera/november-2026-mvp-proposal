@@ -78,17 +78,27 @@
   <body>
     <main>
       <header class="hero">
-        <p class="eyebrow">Propuesta para validar</p>
+        <p class="eyebrow">Alcance aprobado</p>
         <h1>MVP para noviembre de 2026</h1>
-        <p>Una forma sencilla de vender accesos, registrar participantes y hacer check-in sin detener la operación del evento.</p>
+        <p>Una forma sencilla de vender pases, registrar participantes y hacer check-in sin detener la operación del evento.</p>
       </header>
 
       <section class="intro">
         <div>
           <h2>La idea en una frase</h2>
-          <p>Una persona compra o se registra; el equipo confirma su acceso y marca su llegada a cada actividad.</p>
+          <p>Una persona compra sus pases, el equipo verifica su acceso en la entrada de cada actividad y marca su llegada.</p>
         </div>
-        <div class="goal">La herramienta ayuda al evento. Si surge un problema, el evento continúa con una lista de respaldo.</div>
+        <div class="goal">La herramienta ayuda al evento. Si surge un problema, el evento continúa en papel.</div>
+      </section>
+
+      <section>
+        <h2>Pases a la venta</h2>
+        <ul class="list">
+          <li><strong>Pase completo — $2000</strong>Uno por disciplina: Breaking, Popping, Locking o Dancehall. Se pueden comprar varios. Incluye competencias y workshops de esa disciplina.</li>
+          <li><strong>Entrada general — $1000</strong>Acceso al evento. No incluye competencias ni workshops.</li>
+          <li><strong>Open Styles — $800</strong>Adicional para quien tenga al menos un pase completo. Competencia 1 vs 1.</li>
+        </ul>
+        <p class="small">Con cada pase completo, la persona elige en qué competencias quiere participar; participar es opcional. Los workshops se anuncian más adelante y se eligen al llegar.</p>
       </section>
 
       <section>
@@ -96,64 +106,73 @@
           <h2>1. Compra en línea</h2>
           <p>Así sería la experiencia para alguien que compra antes del evento.</p>
           <div class="flow" aria-label="Flujo de compra en línea">
-            <div class="step"><strong>1. Elige actividad</strong><p>Ve competencias, workshops o entradas disponibles.</p></div>
+            <div class="step"><strong>1. Elige sus pases</strong><p>Y las competencias de cada pase completo, si quiere competir.</p></div>
             <div class="arrow" aria-hidden="true">→</div>
-            <div class="step"><strong>2. Se registra</strong><p>Comparte los datos necesarios para asistir o competir.</p></div>
+            <div class="step"><strong>2. Se registra</strong><p>Comparte sus datos y lee el aviso sobre posibles cruces de horario.</p></div>
             <div class="arrow" aria-hidden="true">→</div>
             <div class="step"><strong>3. Paga en línea</strong><p>Completa el pago en una pantalla segura.</p></div>
             <div class="arrow" aria-hidden="true">→</div>
-            <div class="step success"><strong>4. Queda confirmado</strong><p>Recibe su folio y el detalle de sus actividades.</p></div>
+            <div class="step success"><strong>4. Queda confirmado</strong><p>Recibe su folio y el detalle de sus pases y competencias.</p></div>
           </div>
           <p class="note"><strong>Importante:</strong> la inscripción se confirma cuando el pago está aprobado, no solo cuando la persona termina de ver la pantalla de pago.</p>
+          <p class="small">Algunas competencias o workshops pueden coincidir en horario; cada persona elige a cuál asistir. Intentaremos evitar cruces entre competencias, y Open Styles no coincidirá con ninguna competencia de pase completo.</p>
         </div>
 
         <div class="journey">
           <h2>2. Registro y pago en efectivo</h2>
           <p>Para una persona que llega sin haber pagado en línea.</p>
           <div class="flow" aria-label="Flujo de pago en efectivo">
-            <div class="step"><strong>1. Llega al evento</strong><p>El equipo busca si ya tiene una inscripción.</p></div>
+            <div class="step"><strong>1. Llega al evento</strong><p>Un administrador busca si ya tiene una inscripción.</p></div>
             <div class="arrow" aria-hidden="true">→</div>
-            <div class="step"><strong>2. Se registra</strong><p>Una persona autorizada completa o corrige su registro.</p></div>
+            <div class="step"><strong>2. Se registra</strong><p>El administrador completa su registro. Si se parece a alguien ya registrado, lo revisa antes de continuar.</p></div>
             <div class="arrow" aria-hidden="true">→</div>
-            <div class="step manual"><strong>3. Paga en efectivo</strong><p>El administrador registra el importe y entrega un comprobante.</p></div>
+            <div class="step manual"><strong>3. Paga en efectivo</strong><p>Recibe la copia de un recibo numerado; el original se queda con el equipo y su número se anota en la plataforma.</p></div>
             <div class="arrow" aria-hidden="true">→</div>
-            <div class="step success"><strong>4. Puede hacer check-in</strong><p>Su inscripción queda confirmada para la actividad.</p></div>
+            <div class="step success"><strong>4. Queda confirmado</strong><p>Ya puede entrar a sus actividades.</p></div>
           </div>
+          <p class="note"><strong>Importante:</strong> solo los administradores registran pagos en efectivo; los jueces no.</p>
         </div>
 
         <div class="journey">
           <h2>3. Check-in</h2>
-          <p>En la entrada de una competencia o workshop, el equipo confirma la asistencia.</p>
+          <p>En la entrada de cada competencia o workshop, un administrador verifica el acceso y marca la llegada en un solo paso.</p>
           <div class="flow" aria-label="Flujo de check-in">
             <div class="step"><strong>1. Buscar persona</strong><p>Por nombre, correo, nombre artístico o folio.</p></div>
             <div class="arrow" aria-hidden="true">→</div>
-            <div class="step"><strong>2. Confirmar actividad</strong><p>El equipo revisa que tenga acceso a ese workshop o competencia.</p></div>
+            <div class="step"><strong>2. Ver su acceso</strong><p>La plataforma muestra si tiene el pase y la inscripción para esa actividad.</p></div>
             <div class="arrow" aria-hidden="true">→</div>
-            <div class="step success"><strong>3. Marcar asistencia</strong><p>La lista muestra que esa persona ya hizo check-in.</p></div>
+            <div class="step success"><strong>3. Marcar llegada</strong><p>Con eso también queda registrada su llegada al evento.</p></div>
           </div>
+          <ul class="list">
+            <li><strong>Workshops</strong>Quien tenga un pase completo puede inscribirse al llegar y entrar en la misma atención.</li>
+            <li><strong>Entrada general</strong>Da acceso al evento, pero no a competencias ni workshops.</li>
+            <li><strong>Casos sin resolver</strong>Un pago pendiente o un acceso dudoso se pasa a coordinación, que decide.</li>
+          </ul>
         </div>
       </section>
 
       <section>
         <h2>Panel para el equipo organizador</h2>
         <ul class="list">
-          <li><strong>Ver inscritos</strong>Consultar personas registradas por actividad.</li>
+          <li><strong>Ver inscritos</strong>Consultar pases y competencias por actividad.</li>
           <li><strong>Buscar personas</strong>Encontrar por nombre, correo, nombre artístico o folio.</li>
-          <li><strong>Registrar efectivo</strong>Agregar una inscripción presencial y registrar su pago.</li>
-          <li><strong>Hacer check-in</strong>Marcar asistencia para competencias y workshops.</li>
-          <li><strong>Resolver errores</strong>Corregir un registro con autorización.</li>
-          <li><strong>Tener respaldo</strong>Descargar o imprimir listas antes de cada actividad.</li>
+          <li><strong>Registrar efectivo</strong>Registrar a una persona en el lugar y anotar el número de su recibo.</li>
+          <li><strong>Hacer check-in</strong>Verificar el acceso y marcar la llegada en cada actividad.</li>
+          <li><strong>Resolver errores</strong>Corregir nombre, nombre artístico, disciplina o un cobro, siempre con motivo y con historial.</li>
+          <li><strong>Tener respaldo</strong>Imprimir o guardar en PDF las listas por pase y actividad.</li>
         </ul>
       </section>
 
       <section>
         <h2>Si hay un problema durante el evento</h2>
-        <div class="flow" aria-label="Flujo de continuidad manual">
-          <div class="step"><strong>Antes de abrir</strong><p>El equipo descarga o imprime la lista actualizada.</p></div>
+        <div class="flow" aria-label="Flujo de continuidad en papel">
+          <div class="step"><strong>Antes de abrir</strong><p>Un administrador imprime las listas por pase y actividad, sin teléfonos ni correos.</p></div>
           <div class="arrow" aria-hidden="true">→</div>
-          <div class="step"><strong>Si todo funciona</strong><p>El equipo realiza check-in normalmente con la plataforma.</p></div>
+          <div class="step"><strong>Si todo funciona</strong><p>El check-in se hace normalmente con la plataforma.</p></div>
           <div class="arrow" aria-hidden="true">→</div>
-          <div class="step manual"><strong>Si hay una falla</strong><p>El evento continúa con la lista manual y se guardan las correcciones.</p></div>
+          <div class="step manual"><strong>Si se cae la conexión</strong><p>Se sigue con las listas en papel. Quien llega a pagar en efectivo recibe su recibo numerado y entra de forma provisional.</p></div>
+          <div class="arrow" aria-hidden="true">→</div>
+          <div class="step success"><strong>Al volver</strong><p>Un administrador revisa cada anotación en papel y la pasa a la plataforma, cuidando no duplicar registros.</p></div>
         </div>
       </section>
 
@@ -163,20 +182,23 @@
           <div class="included">
             <h3>Incluye</h3>
             <ul>
-              <li>Venta de boletos en línea.</li>
-              <li>Registro de asistentes y competidores.</li>
+              <li>Venta en línea de pases completos (uno o varios), entrada general y Open Styles.</li>
+              <li>Elección de competencias por pase completo.</li>
               <li>Confirmación después de un pago aprobado.</li>
-              <li>Registro presencial con pago en efectivo.</li>
-              <li>Check-in para competencias y workshops.</li>
-              <li>Listas descargables o imprimibles.</li>
+              <li>Registro en el lugar con pago en efectivo y recibo numerado.</li>
+              <li>Check-in en competencias y workshops, con inscripción a workshops al llegar.</li>
+              <li>Listas para imprimir o guardar en PDF, y plan de respaldo en papel.</li>
+              <li>Correcciones por administradores, con motivo e historial.</li>
             </ul>
           </div>
           <div class="excluded">
             <h3>No incluye por ahora</h3>
             <ul>
               <li>Brackets, puntuaciones, jueces o ganadores.</li>
-              <li>Reembolsos automáticos.</li>
-              <li>Operación sin conexión.</li>
+              <li>Reembolsos automáticos o cambios a pagos en línea.</li>
+              <li>Transferir un pase a otra persona o cambiar de entrada general a pase completo.</li>
+              <li>Exportar a Excel.</li>
+              <li>Cupos para workshops.</li>
               <li>Hoteles, viajes, mercancía o patrocinadores.</li>
             </ul>
           </div>
@@ -184,13 +206,14 @@
       </section>
 
       <section class="validation">
-        <h2>Lo que necesitamos validar con el equipo organizador</h2>
+        <h2>Lo que falta confirmar</h2>
         <ul>
-          <li><strong>Las actividades que estarán a la venta.</strong><span class="example">Ejemplo: “Competencia 1 vs 1, workshop de top rock y entrada general.”</span></li>
-          <li><strong>Los datos necesarios de cada persona.</strong><span class="example">Ejemplo: “Para asistentes: nombre y correo. Para competidores: también nombre artístico y categoría.”</span></li>
-          <li><strong>Quiénes pueden registrar efectivo y resolver errores.</strong><span class="example">Ejemplo: “La persona de caja y la coordinación pueden registrar efectivo; solo coordinación puede corregir un error.”</span></li>
-          <li><strong>Cómo quieren realizar el check-in.</strong><span class="example">Ejemplo: “En la entrada, buscamos por nombre o folio y marcamos la llegada a cada actividad.”</span></li>
-          <li><strong>Las situaciones reales que debemos contemplar el día del evento.</strong><span class="example">Ejemplo: “Una persona llega tarde, pierde su folio o dice que pagó pero no aparece confirmada.”</span></li>
+          <li><strong>Fechas, horarios, sedes y workshops.</strong></li>
+          <li><strong>Fecha límite para elegir competencias.</strong><span class="example">Después de esa fecha, los cambios se piden directamente a un administrador.</span></li>
+          <li><strong>Administradores y turnos en cada sede.</strong></li>
+          <li><strong>Impresoras fuera del estudio principal.</strong><span class="example">Hoy solo está garantizada la del estudio principal.</span></li>
+          <li><strong>Qué hacer si se pierde el original de un recibo o hay una diferencia en caja.</strong></li>
+          <li><strong>Cuánto tiempo guardar el historial.</strong><span class="example">Se desean dos años, sujeto a revisión técnica y legal.</span></li>
         </ul>
         <p class="small">El equipo de producto se encarga de validar la operación técnica de los pagos, incluidos los métodos disponibles para los compradores que se acuerde atender.</p>
       </section>
